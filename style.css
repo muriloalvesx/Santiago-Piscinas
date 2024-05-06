@@ -972,7 +972,8 @@ form .send-btn:hover{
     border-radius: 1rem;
     margin-bottom: 1rem;
 }
-.price-item:hover{
+.price-item:hover,
+.price-item2:hover{
     transform: translateY(-10px);
     transition: 0.3s;
 }
@@ -1269,7 +1270,7 @@ form .send-btn:hover{
         margin-top: 10px;
         margin-bottom: 100px;
         text-align: center;
-        margin-left: 0px;
+        margin-left: 10px;
         margin-right: -0px;
         margin-bottom: 70px;
     }
@@ -1385,11 +1386,11 @@ form .send-btn:hover{
     .home .content {
         text-align: center;
         margin-left: -20px;
-        margin-top: -70px;
+        margin-top: -40px;
         position: relative;
     }
     .home .image img{
-        margin-top: -40px;
+        margin-top: -80px;
         margin-left: 40px;
      
     }
