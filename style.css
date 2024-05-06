@@ -54,25 +54,7 @@ section .image{
     align-items: center;
 }
 
-.ri-instagram-fill,
-.ri-whatsapp-fill{
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    backdrop-filter: brightness(88%);
-    font-size: 20px;
-    margin-right: 17px;
-    cursor: pointer;
-    transition: all .50s ease;
-}
-.ri-instagram-fill:hover,
-.ri-whatsapp-fill:hover{
-    transform: scale(1.1);
-    box-shadow: 0 0 20px var(--purple);
-}
+
 .logo-img{
     margin-top: -20px;
     margin-bottom: -20px;
@@ -880,18 +862,10 @@ form .send-btn:hover{
     justify-content: center;
     width: 40px;
     height: 40px;
-    color: var(--text-color);
-    border-radius: 50%;
-    backdrop-filter: brightness(88%);
-    font-size: 20px;
-    margin-right: 17px;
-    box-shadow: 0 0 20px transparent;
+    color: #00ff40;
+    font-size: 50px;
     cursor: pointer;
-    transition: all .50s ease;
-}
-.ri-whatsapp-fill:hover{
-    transform: scale(1.1);
-    box-shadow: 0 0 20px var(--main-color);
+    margin-left: -20px;
 }
 .social .bx{
     font-size: 24px;
@@ -1031,7 +1005,7 @@ form .send-btn:hover{
 .plan-btn,
 .plan-btn2,
 .plan-btn4{
-    padding: 8px 24px;
+    padding: 8px 5px;
     color: var(--text-color);
     text-transform: uppercase;
     font-size: 2rem;
@@ -1046,7 +1020,7 @@ form .send-btn:hover{
 }
 
 .plan-btn3{
-    padding: 8px 24px;
+    padding: 8px 5px;
     color: var(--text-color);
     text-transform: uppercase;
     font-size: 1.8rem;
@@ -1216,7 +1190,7 @@ form .send-btn:hover{
         margin-bottom: 100px;
         text-align: center;
         margin-left: 10px;
-        margin-right: 20px;
+        margin-right: -20px;
         margin-bottom: 70px;
     }
     .ram-title2{
@@ -1235,8 +1209,11 @@ form .send-btn:hover{
         margin-top: 10px;
         margin-bottom: 10px;
         text-align: center;
-        margin-left: -20px;
+        margin-left: 15px;
         margin-right: -20px;
+    }
+    .price-item i{
+        color: #00ff22;
     }
     .price-item-title2{
         font-size: 27px;
@@ -1262,7 +1239,7 @@ form .send-btn:hover{
         margin-top: -10px;
         margin-bottom: 10px;
         text-align: center;
-        margin-left: -20px;
+        margin-left: 20px;
         margin-right: -20px;
     }
     .plan-btn4{
@@ -1271,7 +1248,7 @@ form .send-btn:hover{
         margin-bottom: 100px;
         text-align: center;
         margin-left: 10px;
-        margin-right: -0px;
+        margin-right: -20px;
         margin-bottom: 70px;
     }
     .prices-title{
@@ -1306,6 +1283,17 @@ form .send-btn:hover{
     }
     header.sticky{
      background: transparent;   
+    }
+    .ri-whatsapp-fill{
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        width: 40px;
+        height: 40px;
+        color: #00ff40;
+        font-size: 30px;
+        cursor: pointer;
+        margin-left: 15px;
     }
 }
 
