@@ -1370,6 +1370,7 @@ form .send-btn:hover{
         margin-top: 10px;
         width:200px;
         height: 300px;
+        margin-bottom: -200px;
     }
     
     .home .content {
@@ -1390,7 +1391,7 @@ form .send-btn:hover{
         font-size: 2.5rem;
         text-align: center;
         margin-left: 0; 
-        margin-top: -380px;
+        margin-top: -480px;
         margin-bottom: 80px;
     }
     
