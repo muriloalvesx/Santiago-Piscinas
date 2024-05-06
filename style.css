@@ -1446,7 +1446,7 @@ form .send-btn:hover{
     
 }
 
-@media (max-width: 600px){
+@media (max-width: 400px){
     :root{
         --h1-font: 3rem;
         --h2-font: 2rem;
