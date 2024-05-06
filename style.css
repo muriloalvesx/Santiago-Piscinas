@@ -128,7 +128,7 @@ header label{
 .home .image img{
     margin-top: -50px;
     width: 40vh;
-    animation: float 3s linear infinite;
+    animation: float 4s linear infinite;
 }
 .home .content{
     margin-left: 70px;
@@ -136,7 +136,7 @@ header label{
 
 @keyframes float{
     0%, 100%{
-        transform: translateY(4rem);
+        transform: translateY(2rem);
     }
     50%{
         transform: translateY(0rem);
@@ -1446,7 +1446,7 @@ form .send-btn:hover{
     
 }
 
-@media (max-width: 360px){
+@media (max-width: 600px){
     :root{
         --h1-font: 3rem;
         --h2-font: 2rem;
@@ -1476,5 +1476,26 @@ form .send-btn:hover{
         display: flex;
         align-items: center;
         justify-content: flex-start;
+    }
+    .home .image img{
+        margin-top: -50px;
+        width: 28vh;
+        height: 100%;
+        animation: float 3s linear infinite;
+    }
+    .home .content h3,
+    .home .content h3 span,
+    .home .content p{
+        font-size: 2rem;
+        text-align: center;
+        margin-left: 0; 
+        margin-top: -225px;
+        margin-bottom: 60px;
+    }
+    
+    .home .content a{text-align: center;
+        margin-left: 0;
+        transform: translateY(-70px); /* Ajuste o valor negativo conforme necessário */
+        display: inline-block;
     }
 }
