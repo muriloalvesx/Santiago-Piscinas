@@ -108,8 +108,7 @@ header input{
 }
 
 header label{
-    font-size: 3rem;
-    color: var(--pink);
+    font-size: 2rem;
     cursor: pointer;
     visibility: hidden;
     opacity: 0;
