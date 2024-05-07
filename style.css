@@ -1256,6 +1256,10 @@ form .send-btn:hover{
         cursor: pointer;
         margin-left: 15px;
     }
+    .logo-img{  
+        width: 160px;
+        height: 60px;
+    }
 }
 
 @media only screen and (max-width: 768px){
