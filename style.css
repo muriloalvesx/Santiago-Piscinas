@@ -555,46 +555,6 @@ header.sticky{
     display: flex;
     justify-content: center;
 }
-.navigation-auto div:not(:last-child){
-    color: #1b1f24;
-    margin-right: 25px;
-}
-#radio1:checked ~ .navigation-auto .auto-btn1{
-    background-color: black;
-}
-#radio2:checked ~ .navigation-auto .auto-btn2{
-    background-color: black;
-}
-#radio3:checked ~ .navigation-auto .auto-btn3{
-    background-color: black;
-}
-#radio4:checked ~ .navigation-auto .auto-btn4{
-    background-color: black;
-}
-#radio5:checked ~ .navigation-auto .auto-btn5{
-    background-color: black;
-}
-#radio6:checked ~ .navigation-auto .auto-btn6{
-    background-color: black;
-}
-#radio7:checked ~ .navigation-auto .auto-btn7{
-    background-color: black;
-}
-#radio8:checked ~ .navigation-auto .auto-btn8{
-    background-color: black;
-}
-#radio9:checked ~ .navigation-auto .auto-btn9{
-    background-color: black;
-}
-#radio10:checked ~ .navigation-auto .auto-btn10{
-    background-color: black;
-}
-#radio11:checked ~ .navigation-auto .auto-btn11{
-    background-color: black;
-}
-#radio12:checked ~ .navigation-auto .auto-btn12{
-    background-color: black;
-}
 
 .maps {
     background-color: rgba(16, 18, 46, 0.8);
@@ -1376,7 +1336,7 @@ form .send-btn:hover{
     .home .content {
         text-align: center;
         margin-left: -20px;
-        margin-top: -40px;
+        margin-top: -70px;
         position: relative;
     }
     .home .image img{
@@ -1447,7 +1407,7 @@ form .send-btn:hover{
     
 }
 
-@media (max-width: 400px){
+@media (max-width: 812px){
     :root{
         --h1-font: 3rem;
         --h2-font: 2rem;
@@ -1490,7 +1450,7 @@ form .send-btn:hover{
         font-size: 2rem;
         text-align: center;
         margin-left: 0; 
-        margin-top: -225px;
+        margin-top: -300px;
         margin-bottom: 60px;
     }
     
@@ -1498,5 +1458,64 @@ form .send-btn:hover{
         margin-left: 0;
         transform: translateY(-70px); /* Ajuste o valor negativo conforme necessário */
         display: inline-block;
+    }
+}
+
+@media (max-width: 844px){
+    .plan-btn3{
+        font-size:10px;
+        margin-top: -10px;
+        margin-bottom: 10px;
+        text-align: center;
+        margin-left: 0px;
+        margin-right: -20px;
+    }
+}
+
+@media (max-width: 320px){
+    .home .image img{
+        padding: 5px;
+        margin-top: 10px;
+        width:200px;
+        height: 300px;
+        margin-top: -120px;
+        margin-left: 40px;
+    }
+    
+    .home .content {
+        text-align: center;
+        margin-left: -20px;
+        margin-top: -70px;
+        position: relative;
+    }
+
+    .home .content h3,
+    .home .content h3 span,
+    .home .content p{
+        font-size: 1.7rem;
+        text-align: center;
+        margin-left: 0; 
+        margin-top: -180px;
+        margin-bottom: 80px;
+    }
+    .home .content a{
+        margin-top: -10px;
+    }
+    @keyframes float{
+        0%, 100%{
+            transform: translateY(1rem);
+        }
+        50%{
+            transform: translateY(0rem);
+        }
+    } 
+    header .navbar a{
+        font-size: 1.2rem;
+        margin-left: 2rem;
+        color: #fff;
+    }
+    .logo-img{  
+        width: 200px;
+        height: 80px;
     }
 }
