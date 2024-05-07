@@ -1518,4 +1518,28 @@ form .send-btn:hover{
         width: 200px;
         height: 80px;
     }
+    .plan-btn{
+        font-size: 10px;
+    }
+    .plan-btn2{
+        font-size: 10px;
+    }
+    .plan-btn3{
+        font-size: 8px;
+        margin-left: 0px;
+    }
+    .ram-title3{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .price-item-title3{
+        font-size: 18px;
+        margin-left: 0px;
+    }
+    .plan-btn4{
+        font-size: 10px;
+    }
+    .price-item2 img{
+        width: 150px;
+    }
 }
