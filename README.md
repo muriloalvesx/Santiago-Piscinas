@@ -1,6 +1,6 @@
 ## Santiago Piscinas - Landing Page Freelance 🌊
 
-Landing Page da empresa Santiago Piscinas.
+Landing Page para a empresa Santiago Piscinas.
 
 ### Tecnologias Utilizadas
 
@@ -11,6 +11,6 @@ Landing Page da empresa Santiago Piscinas.
 </div><br/>
 
 <div style="display: flex"><br/>
-<img align="center" alt="samtech1"src="https://github.com/muriloalvesx/LexWeb/assets/153781890/ff9df5bd-96d6-44cb-bfc5-9289e9e9bccf" width="413px"/>
+<img align="center"  alt="samtech1"src="https://github.com/muriloalvesx/LexWeb/assets/153781890/ff9df5bd-96d6-44cb-bfc5-9289e9e9bccf" width="413px"/>
 <img align="center" alt="samtech2"src="https://github.com/muriloalvesx/LexWeb/assets/153781890/4e6bc176-d0aa-4dda-8fbb-bc1adb45dd4d" width="405px"/>
 </div><br/>
