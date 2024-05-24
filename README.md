@@ -10,6 +10,10 @@ Landing Page para a empresa Santiago Piscinas.
     <img align="center" alt="js"src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
 </div><br/>
 
+### Acesse em:
+
+[![Website](https://img.shields.io/badge/website-000000?style=for-the-badge&logo=About.me&logoColor=white)](https://santiagopiscinas.netlify.app/) https://santiagopiscinas.netlify.app
+
 <div style="display: flex"><br/>
 <img align="center"  alt="samtech1"src="https://github.com/muriloalvesx/LexWeb/assets/153781890/ff9df5bd-96d6-44cb-bfc5-9289e9e9bccf" width="413px"/>
 <img align="center" alt="samtech2"src="https://github.com/muriloalvesx/LexWeb/assets/153781890/4e6bc176-d0aa-4dda-8fbb-bc1adb45dd4d" width="405px"/>
