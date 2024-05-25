@@ -305,6 +305,13 @@ header.sticky{
     border: 7px solid var(--main-color);
     box-shadow: 0 0 20px var(--main-color);
 }
+.about-img1 img{
+    height: 80vh;
+    width: 100%;
+    border-radius: 20px;
+    mask-image: linear-gradient(to bottom, transparent 100%, transparent 100%);
+    -webkit-mask-image: linear-gradient(to bottom, black 1%, transparent 85%);
+}
 .about-text h2{
     color: #fff;
     font-size: 2.2rem;
@@ -331,6 +338,29 @@ header.sticky{
     font-size: var(--p-font);
     font-weight: 400;
     margin-left: 8px;
+}
+.exp-area1{
+    margin-bottom: 50px;
+    margin-top: -150px;
+}
+.exp-area1 p{
+    color: var(--text-color);
+    font-size: 19px;
+    line-height: 30px;
+    text-align: justify;
+    margin-bottom: 10px;
+}
+.exp-area1 p span{
+    color: var(--other-color);
+    font-size: var(--p-font);
+    font-weight: 400;
+    margin-left: 8px;
+}
+.exp-area1 h1{
+    font-size: 30px;
+}
+.exp-area1 a{
+    text-align: center;
 }
 .center-text{
     margin-top: -100px;
@@ -1462,6 +1492,33 @@ form .send-btn:hover{
         transform: translateY(-70px); /* Ajuste o valor negativo conforme necessário */
         display: inline-block;
     }
+}
+.exp-area1 p{
+    color: var(--text-color);
+    font-size: 15px;
+    line-height: 22px;
+    text-align: justify;
+    margin-bottom: 10px;
+}
+.exp-area1 p span{
+    color: var(--other-color);
+    font-size: var(--p-font);
+    font-weight: 400;
+    margin-left: 8px;
+}
+.exp-area1 h1{
+    font-size: 30px;
+}
+.exp-area1 a{
+    text-align: center;
+}
+.about-img1 img{
+    margin-left: -8px;
+    height: 50vh;
+    width: 45vh;
+    border-radius: 20px;
+    mask-image: linear-gradient(to bottom, transparent 100%, transparent 100%);
+    -webkit-mask-image: linear-gradient(to bottom, black 1%, transparent 85%);
 }
 
 @media (max-width: 844px){
