@@ -1492,6 +1492,9 @@ form .send-btn:hover{
         transform: translateY(-70px); /* Ajuste o valor negativo conforme necessário */
         display: inline-block;
     }
+}
+
+@media (max-width: 844px){
     .plan-btn3{
         font-size:10px;
         margin-top: -10px;
@@ -1528,7 +1531,6 @@ form .send-btn:hover{
     -webkit-mask-image: linear-gradient(to bottom, black 1%, transparent 85%);
 }
 }
-
 
 @media (max-width: 320px){
     .home .image img{
