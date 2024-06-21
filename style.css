@@ -1525,7 +1525,7 @@ form .send-btn:hover{
 .about-img1 img{
     margin-left: -8px;
     height: 53vh;
-    width: 50vh;
+    width: 47vh;
     border-radius: 20px;
     mask-image: linear-gradient(to bottom, transparent 100%, transparent 100%);
     -webkit-mask-image: linear-gradient(to bottom, black 1%, transparent 85%);
